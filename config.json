@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 4,
+  "config_revision": 5,
   "package_name": "com.qrbarre.scan",
   "global": {
     "maintenance_mode": false,
@@ -63,7 +63,7 @@
       "refresh_seconds": 0
     },
     "admob": {
-      "app_open_android": "",
+      "app_open_android": "ca-app-pub-3289974964220873/4176083457",
       "app_open_ios": "",
       "interstitial_android": "ca-app-pub-3289974964220873/4340932978",
       "interstitial_ios": "",
