@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 1,
+  "config_revision": 2,
   "package_name": "com.qrbarre.scan",
   "global": {
     "maintenance_mode": false,
@@ -13,7 +13,7 @@
     "update_url": "https://galaxystore.samsung.com/detail/com.qrbarre.scan"
   },
   "links": {
-    "support_email": "",
+    "support_email": "alicjachmura2583@gmail.com",
     "privacy_policy": "",
     "terms": ""
   },
