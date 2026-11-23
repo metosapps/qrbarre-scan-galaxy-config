@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 3,
+  "config_revision": 4,
   "package_name": "com.qrbarre.scan",
   "global": {
     "maintenance_mode": false,
@@ -18,7 +18,7 @@
     "terms": "https://qr-scanner-blue-galaxy.ais-life-5025.chatgpt.site/terms/"
   },
   "features": {
-    "iap_enabled": false,
+    "iap_enabled": true,
     "gallery_scan_enabled": true,
     "batch_scan_enabled": true,
     "history_transfer_enabled": true,
@@ -27,7 +27,7 @@
   },
   "kill_switches": {
     "ads_enabled": false,
-    "iap_enabled": false
+    "iap_enabled": true
   },
   "ads": {
     "mode": "off",
