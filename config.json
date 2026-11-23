@@ -1,0 +1,74 @@
+{
+  "schema_version": 2,
+  "config_revision": 1,
+  "package_name": "com.qrbarre.scan",
+  "global": {
+    "maintenance_mode": false,
+    "maintenance_message": "Service is temporarily unavailable."
+  },
+  "android": {
+    "min_supported_version_code": 1,
+    "latest_version_code": 17,
+    "update_mode": "none",
+    "update_url": "https://galaxystore.samsung.com/detail/com.qrbarre.scan"
+  },
+  "links": {
+    "support_email": "",
+    "privacy_policy": "",
+    "terms": ""
+  },
+  "features": {
+    "iap_enabled": false,
+    "gallery_scan_enabled": true,
+    "batch_scan_enabled": true,
+    "history_transfer_enabled": true,
+    "product_search_enabled": true,
+    "advanced_generator_enabled": true
+  },
+  "kill_switches": {
+    "ads_enabled": false,
+    "iap_enabled": false
+  },
+  "ads": {
+    "mode": "off",
+    "production_approved": false,
+    "enabled": false,
+    "provider": "admob",
+    "pro_users_see_ads": false,
+    "app_open": {
+      "enabled": false,
+      "cold_start_enabled": false,
+      "resume_enabled": true,
+      "first_show_delay_seconds": 8,
+      "resume_min_background_seconds": 30,
+      "cooldown_seconds": 600,
+      "max_per_session": 2,
+      "max_per_day": 6
+    },
+    "interstitial": {
+      "enabled": false,
+      "first_show_after_scans": 3,
+      "every_n_scans": 5,
+      "cooldown_seconds": 120,
+      "max_per_session": 3,
+      "max_per_day": 10,
+      "show_delay_seconds": 0
+    },
+    "native": {
+      "enabled": false,
+      "scanner_enabled": true,
+      "result_enabled": true,
+      "generator_enabled": true,
+      "show_delay_seconds": 0,
+      "refresh_seconds": 0
+    },
+    "admob": {
+      "app_open_android": "",
+      "app_open_ios": "",
+      "interstitial_android": "ca-app-pub-3289974964220873/4340932978",
+      "interstitial_ios": "",
+      "native_android": "ca-app-pub-3289974964220873/9401687969",
+      "native_ios": ""
+    }
+  }
+}
