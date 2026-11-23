@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "config_revision": 5,
+  "config_revision": 6,
   "package_name": "com.qrbarre.scan",
   "global": {
     "maintenance_mode": false,
@@ -26,17 +26,17 @@
     "advanced_generator_enabled": true
   },
   "kill_switches": {
-    "ads_enabled": false,
+    "ads_enabled": true,
     "iap_enabled": true
   },
   "ads": {
-    "mode": "off",
-    "production_approved": false,
-    "enabled": false,
+    "mode": "production",
+    "production_approved": true,
+    "enabled": true,
     "provider": "admob",
     "pro_users_see_ads": false,
     "app_open": {
-      "enabled": false,
+      "enabled": true,
       "cold_start_enabled": false,
       "resume_enabled": true,
       "first_show_delay_seconds": 8,
@@ -46,7 +46,7 @@
       "max_per_day": 6
     },
     "interstitial": {
-      "enabled": false,
+      "enabled": true,
       "first_show_after_scans": 3,
       "every_n_scans": 5,
       "cooldown_seconds": 120,
@@ -55,7 +55,7 @@
       "show_delay_seconds": 0
     },
     "native": {
-      "enabled": false,
+      "enabled": true,
       "scanner_enabled": true,
       "result_enabled": true,
       "generator_enabled": true,
